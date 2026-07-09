@@ -1,0 +1,217 @@
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>RemedyWise - Home Remedies Collection</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <!-- Header Navigation -->
+      <header class="main-header">
+          <div class="container">
+              <div class="header-content">
+                  <div class="logo">
+                      <h1>RemedyWise</h1>
+                  </div>
+                  <nav class="main-nav">
+                      <a href="#services" class="nav-link">Services</a>
+                      <a href="#about" class="nav-link">About Us</a>
+                      <a href="#signup" class="nav-link signup-btn">Sign Up</a>
+                  </nav>
+              </div>
+          </div>
+      </header>
+
+      <!-- Welcome Hero Section -->
+      <section class="hero-section">
+          <div class="container">
+              <div class="hero-content">
+                  <div class="hero-text">
+                      <h1 class="hero-title">
+                          <span class="main-title">Explore the healing world of natural remedies</span>
+                      </h1>
+
+                      <p class="hero-description">Discover age old home remedies backed by doctor verified knowledge, crafted for safe and mindful modern living</p>
+
+                      <div class="hero-search-container">
+                          <input type="text" id="searchBar" placeholder="Search remedies across all categories..." class="hero-search-input">
+                          <button class="hero-search-btn">🔍</button>
+                      </div>
+                  </div>
+                  <div class="hero-image-wrapper">
+                      <div class="hero-image">
+                          <img src="hero-image.jpg" alt="Natural remedies and herbs collection" class="hero-image-img">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- Category Boxes -->
+      <section class="categories-section">
+          <div class="container">
+              <div class="categories-grid">
+                  <a href="category.html?category=beauty" class="category-link">
+                      <div class="category-box" data-category="beauty">
+                          <div class="category-image">
+                              <img src="beauty-care.jpg" alt="Beauty Care" class="category-img">
+                          </div>
+                          <h2>Beauty Care</h2>
+                          <p>Natural beauty remedies and skincare tips</p>
+                      </div>
+                  </a>
+
+                  <a href="category.html?category=household" class="category-link">
+                      <div class="category-box" data-category="household">
+                          <div class="category-image">
+                              <img src="household-hacks.jpg" alt="Household Hacks" class="category-img">
+                          </div>
+                          <h2>Household Hacks</h2>
+                          <p>Clever home solutions and cleaning tips</p>
+                      </div>
+                  </a>
+
+                  <a href="category.html?category=wellness" class="category-link">
+                      <div class="category-box" data-category="wellness">
+                          <div class="category-image">
+                              <img src="wellness.jpg" alt="Wellness & Lifestyle" class="category-img">
+                          </div>
+                          <h2>Wellness & Lifestyle</h2>
+                          <p>Health remedies and lifestyle tips</p>
+                      </div>
+                  </a>
+
+                  <a href="category.html?category=pregnancy" class="category-link">
+                      <div class="category-box" data-category="pregnancy">
+                          <div class="category-image">
+                              <img src="pregnancy.jpg" alt="Pregnancy Guide" class="category-img">
+                          </div>
+                          <h2>Pregnancy Guide</h2>
+                          <p>Safe remedies and tips for expecting mothers</p>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </section>
+
+      <!-- Remedies Content Section -->
+      <section class="remedies-section" id="remediesSection">
+          <div class="container">
+              <div class="section-header">
+                  <h2 id="sectionTitle">Select a category to view remedies</h2>
+              </div>
+              <div id="remediesContainer" class="remedies-grid">
+                  <!-- Remedies will be dynamically inserted here -->
+              </div>
+          </div>
+      </section>
+
+      <!-- Add/Edit Remedy Modal -->
+      <div id="remedyModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2 id="modalTitle">Add New Remedy</h2>
+              <form id="remedyForm">
+                  <input type="hidden" id="remedyId">
+
+                  <label for="remedyTitle">Title *</label>
+                  <input type="text" id="remedyTitle" required placeholder="e.g., Honey Face Mask">
+
+                  <label for="remedyCategory">Category *</label>
+                  <select id="remedyCategory" required>
+                      <option value="">Select a category</option>
+                      <option value="beauty">Beauty Care</option>
+                      <option value="household">Household Hacks</option>
+                      <option value="wellness">Wellness & Lifestyle</option>
+                      <option value="pregnancy">Pregnancy Guide</option>
+                  </select>
+
+                  <label for="remedyIngredients">Ingredients *</label>
+                  <textarea id="remedyIngredients" required placeholder="List ingredients needed (one per line)"></textarea>
+
+                  <label for="remedyInstructions">Instructions *</label>
+                  <textarea id="remedyInstructions" required placeholder="Step-by-step instructions"></textarea>
+
+                  <label for="remedyBenefits">Benefits (optional)</label>
+                  <textarea id="remedyBenefits" placeholder="What benefits does this remedy provide?"></textarea>
+
+                  <label for="remedyAllergens">Allergen Information *</label>
+                  <textarea id="remedyAllergens" required placeholder="List any allergens or potential allergic reactions (e.g., Contains: nuts, dairy, citrus). If none, write 'No known allergens'"></textarea>
+
+                  <div class="form-buttons">
+                      <button type="submit" class="btn-primary">Save Remedy</button>
+                      <button type="button" class="btn-secondary" id="cancelBtn">Cancel</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+      <!-- Suggest a Remedy Section -->
+      <section class="suggest-remedy-section">
+          <div class="container">
+              <div class="suggest-remedy-form-wrapper">
+                  <div class="form-header">
+                      <h2>Suggest a Remedy</h2>
+                      <p class="form-description">Have a natural remedy that has worked for you? Share it with our community and help others discover safe, effective solutions.</p>
+                  </div>
+                  <form class="google-form-style" id="suggestRemedyForm">
+                      <div class="form-question">
+                          <label class="question-label">Remedy Title <span class="required">*</span></label>
+                          <input type="text" class="form-input" id="suggestTitle" required placeholder="e.g., Honey Face Mask">
+                      </div>
+
+                      <div class="form-question">
+                          <label class="question-label">Category <span class="required">*</span></label>
+                          <select class="form-input" id="suggestCategory" required>
+                              <option value="">Select a category</option>
+                              <option value="beauty">Beauty Care</option>
+                              <option value="household">Household Hacks</option>
+                              <option value="wellness">Wellness & Lifestyle</option>
+                              <option value="pregnancy">Pregnancy Guide</option>
+                          </select>
+                      </div>
+
+                      <div class="form-question">
+                          <label class="question-label">Ingredients <span class="required">*</span></label>
+                          <textarea class="form-textarea" id="suggestIngredients" required placeholder="List ingredients needed (one per line)"></textarea>
+                      </div>
+
+                      <div class="form-question">
+                          <label class="question-label">Instructions <span class="required">*</span></label>
+                          <textarea class="form-textarea" id="suggestInstructions" required placeholder="Step-by-step instructions"></textarea>
+                      </div>
+
+                      <div class="form-question">
+                          <label class="question-label">Benefits (optional)</label>
+                          <textarea class="form-textarea" id="suggestBenefits" placeholder="What benefits does this remedy provide?"></textarea>
+                      </div>
+
+                      <div class="form-question">
+                          <label class="question-label">Allergen Information <span class="required">*</span></label>
+                          <textarea class="form-textarea" id="suggestAllergens" required placeholder="List any allergens or potential allergic reactions (e.g., Contains: nuts, dairy, citrus). If none, write 'No known allergens'"></textarea>
+                      </div>
+
+                      <div class="form-submit-container">
+                          <button type="submit" class="form-submit-btn">Submit</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </section>
+
+      <footer>
+          <div class="container">
+              <p>Disclaimer: Doctor-verified remedies are provided for informational purposes only; allergies and individual responses may vary.</p>
+          </div>
+      </footer>
+
+      <script src="script.js"></script>
+  </body>
+  </html>

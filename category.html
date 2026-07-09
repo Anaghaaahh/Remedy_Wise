@@ -1,0 +1,116 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Category - RemedyWise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none;">
+                        <h1>RemedyWise</h1>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About Us</a>
+                    <a href="#signup" class="nav-link signup-btn">Sign Up</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="category-header-section">
+        <div class="container">
+            <div class="category-header">
+                <h1 id="categoryTitle">Category</h1>
+                <p id="categoryDescription">Browse remedies in this category</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Search remedies in this category..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Remedies Content Section -->
+    <section class="remedies-section" id="remediesSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="sectionTitle">Remedies</h2>
+            </div>
+            <div id="remediesContainer" class="remedies-grid">
+                <!-- Remedies will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Add/Edit Remedy Modal -->
+    <div id="remedyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Add New Remedy</h2>
+            <form id="remedyForm">
+                <input type="hidden" id="remedyId">
+                
+                <label for="remedyTitle">Title *</label>
+                <input type="text" id="remedyTitle" required placeholder="e.g., Honey Face Mask">
+
+                <label for="remedyCategory">Category *</label>
+                <select id="remedyCategory" required>
+                    <option value="">Select a category</option>
+                    <option value="beauty">Beauty Care</option>
+                    <option value="household">Household Hacks</option>
+                    <option value="wellness">Wellness & Lifestyle</option>
+                    <option value="pregnancy">Pregnancy Guide</option>
+                </select>
+
+                <label for="remedyIngredients">Ingredients *</label>
+                <textarea id="remedyIngredients" required placeholder="List ingredients needed (one per line)"></textarea>
+
+                <label for="remedyInstructions">Instructions *</label>
+                <textarea id="remedyInstructions" required placeholder="Step-by-step instructions"></textarea>
+
+                <label for="remedyBenefits">Benefits (optional)</label>
+                <textarea id="remedyBenefits" placeholder="What benefits does this remedy provide?"></textarea>
+
+                <label for="remedyAllergens">Allergen Information *</label>
+                <textarea id="remedyAllergens" required placeholder="List any allergens or potential allergic reactions (e.g., Contains: nuts, dairy, citrus). If none, write 'No known allergens'"></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn-primary">Save Remedy</button>
+                    <button type="button" class="btn-secondary" id="cancelBtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Disclaimer: Doctor-verified remedies are provided for informational purposes only; allergies and individual responses may vary.</p>
+        </div>
+    </footer>
+
+    <script src="category-script.js"></script>
+</body>
+</html>
+

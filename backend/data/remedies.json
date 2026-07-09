@@ -1,0 +1,659 @@
+[
+  {
+    "title": "Gut Health Drink",
+    "category": "wellness",
+    "symptoms": [
+      "stomach pain",
+      "stomach ache",
+      "indigestion",
+      "gas",
+      "diarrhea",
+      "constipation",
+      "bloating"
+    ],
+    "ingredients": [
+      "peppermint leaves",
+      "fennel seeds",
+      "cumin seeds",
+      "water",
+      "lemon juice",
+      "honey"
+    ],
+    "instructions": "Boil four cups of water. Add peppermint leaves, fennel seeds, and cumin seeds. Let it simmer for ten minutes. Strain the liquid, add lemon juice and honey if desired, and drink once or twice a day after meals.",
+    "benefits": "Helps alleviate common digestive discomforts such as bloating, gas, and cramps.",
+    "source": "Traditional digestive remedy",
+    "keywords": [
+      "stomach pain",
+      "stomach ache",
+      "gas",
+      "bloating",
+      "indigestion",
+      "constipation",
+      "gut health",
+      "digestive remedy"
+    ]
+  },
+  {
+    "title": "Dandruff (Neem and Curd)",
+    "category": "beauty",
+    "symptoms": [
+      "hair fall",
+      "itchy scalp",
+      "dandruff",
+      "scalp irritation"
+    ],
+    "ingredients": [
+      "neem leaves",
+      "curd"
+    ],
+    "instructions": "Wash hair with water boiled with neem leaves. Mix neem leaves with curd and apply to the scalp. Leave for 15–20 minutes and wash with warm water.",
+    "benefits": "Neem helps control dandruff-causing fungus while curd moisturizes the scalp.",
+    "source": "Traditional hair care practice",
+    "keywords": [
+      "dandruff",
+      "itchy scalp",
+      "hair fall",
+      "scalp irritation",
+      "neem remedy"
+    ]
+  },
+  {
+    "title": "Dandruff (Fenugreek and Curd)",
+    "category": "beauty",
+    "symptoms": [
+      "hair fall",
+      "itchy scalp",
+      "dandruff",
+      "scalp irritation"
+    ],
+    "ingredients": [
+      "fenugreek seeds",
+      "curd",
+      "triphala churna"
+    ],
+    "instructions": "Soak fenugreek seeds overnight and grind into a paste. Mix with curd and one teaspoon of triphala churna. Apply to the scalp, leave for one hour, and wash with mild shampoo.",
+    "benefits": "Fenugreek provides antifungal and moisturizing properties that help reduce dandruff.",
+    "source": "Traditional hair care practice",
+    "keywords": [
+      "dandruff",
+      "fenugreek",
+      "itchy scalp",
+      "hair fall",
+      "natural hair care"
+    ]
+  },
+  {
+    "title": "Dandruff (Coconut Oil and Lemon)",
+    "category": "beauty",
+    "symptoms": [
+      "hair fall",
+      "itchy scalp",
+      "dandruff",
+      "dry scalp"
+    ],
+    "ingredients": [
+      "coconut oil",
+      "lemon juice"
+    ],
+    "instructions": "Warm two tablespoons of coconut oil and mix with one tablespoon of lemon juice. Apply to the scalp in the evening and leave overnight. Use once a week.",
+    "benefits": "Coconut oil moisturizes the scalp while lemon helps reduce dandruff-causing microbes.",
+    "source": "Household hair care remedy",
+    "keywords": [
+      "dandruff",
+      "dry scalp",
+      "coconut oil",
+      "lemon remedy",
+      "itchy scalp"
+    ]
+  },
+  {
+    "title": "Acid Reflux Relief",
+    "category": "wellness",
+    "symptoms": [
+      "acidity",
+      "bloating",
+      "gas",
+      "stomach pain",
+      "indigestion"
+    ],
+    "ingredients": [
+      "coriander seeds",
+      "water",
+      "barley",
+      "cucumber",
+      "lemon juice",
+      "mint leaves"
+    ],
+    "instructions": "Soak coriander seeds in water overnight and consume the water the next day. Include barley water and cucumber in the diet as supportive measures.",
+    "benefits": "Soothes the stomach lining and supports digestion while reducing acidity and bloating.",
+    "source": "Traditional digestive guidance",
+    "keywords": [
+      "acid reflux",
+      "acidity",
+      "bloating",
+      "gas",
+      "indigestion"
+    ]
+  },
+  {
+    "title": "Kadha",
+    "category": "wellness",
+    "symptoms": [
+      "cough",
+      "cold",
+      "sore throat",
+      "nasal congestion",
+      "wheezing"
+    ],
+    "ingredients": [
+      "ginger",
+      "tulsi leaves",
+      "cinnamon powder",
+      "black pepper powder"
+    ],
+    "instructions": "Boil grated ginger, crushed tulsi leaves, cinnamon powder, and black pepper powder in half a cup of water. Strain and drink warm.",
+    "benefits": "Helps relieve throat discomfort, congestion, and supports immunity.",
+    "source": "Ayurvedic household remedy",
+    "keywords": [
+      "kadha",
+      "cough",
+      "cold",
+      "immunity booster",
+      "sore throat"
+    ]
+  },
+  {
+    "title": "Cough and Cold (Herbal Decoction)",
+    "category": "wellness",
+    "symptoms": [
+      "cough",
+      "cold",
+      "sore throat",
+      "nasal congestion",
+      "wheezing"
+    ],
+    "ingredients": [
+      "dry ginger",
+      "black pepper",
+      "betel leaf",
+      "tulsi leaves",
+      "jaggery"
+    ],
+    "instructions": "Boil all ingredients for ten minutes. Strain and drink warm. Add jaggery if the taste is too strong. Drink twice daily.",
+    "benefits": "Helps clear mucus, reduce congestion, and support respiratory comfort.",
+    "source": "Traditional cold remedy",
+    "keywords": [
+      "cough",
+      "cold",
+      "nasal congestion",
+      "herbal decoction",
+      "mucus relief"
+    ]
+  },
+  {
+    "title": "Cough and Cold (Honey and Ginger)",
+    "category": "wellness",
+    "symptoms": [
+      "cough",
+      "cold",
+      "sore throat",
+      "nasal congestion"
+    ],
+    "ingredients": [
+      "honey",
+      "ginger juice",
+      "turmeric"
+    ],
+    "instructions": "Take one spoon of honey, add a few drops of ginger juice and a pinch of turmeric. Mix well and consume twice a day.",
+    "benefits": "Soothes the throat and supports the body during cold and cough.",
+    "source": "Household wellness practice",
+    "keywords": [
+      "cough",
+      "cold",
+      "honey ginger",
+      "sore throat",
+      "home remedy"
+    ]
+  },
+  {
+    "title": "Cough and Cold (Herbal Ladoo)",
+    "category": "wellness",
+    "symptoms": [
+      "cough",
+      "cold",
+      "sore throat",
+      "nasal congestion"
+    ],
+    "ingredients": [
+      "jaggery",
+      "ginger powder",
+      "turmeric powder"
+    ],
+    "instructions": "Make a paste of jaggery, add ginger and turmeric powder, roll into small ladoos, and consume twice a day.",
+    "benefits": "Provides warming comfort, soothes the throat, and supports natural defenses.",
+    "source": "Traditional home remedy",
+    "keywords": [
+      "cough",
+      "cold",
+      "herbal ladoo",
+      "throat relief",
+      "immunity"
+    ]
+  },
+  {
+    "title": "Skin Allergy Relief",
+    "category": "wellness",
+    "symptoms": [
+      "skin allergy",
+      "itching",
+      "skin rash",
+      "sensitive skin"
+    ],
+    "ingredients": [
+      "turmeric",
+      "black pepper",
+      "ghee",
+      "coriander powder"
+    ],
+    "instructions": "Mix turmeric, black pepper, ghee, and coriander powder. Consume two to three times a day.",
+    "benefits": "Helps reduce skin inflammation and itching while supporting skin healing.",
+    "source": "Traditional wellness practice",
+    "keywords": [
+      "skin allergy",
+      "itching",
+      "skin rash",
+      "natural skin care",
+      "turmeric remedy"
+    ]
+  },
+  
+  {
+    "title": "Activated Charcoal Face Pack",
+    "category": "beauty",
+    "symptoms": [
+      "acne",
+      "pimples",
+      "oily skin",
+      "dull skin"
+    ],
+    "ingredients": [
+      "activated charcoal powder",
+      "aloe vera gel",
+      "tea tree oil"
+    ],
+    "instructions": "Mix one teaspoon activated charcoal powder with one teaspoon aloe vera gel and one drop of tea tree oil. Apply gently on the face and rinse after 15 minutes.",
+    "benefits": "Draws out impurities, controls excess oil, and helps prevent breakouts.",
+    "source": "Natural skincare practice",
+    "keywords": [
+      "acne",
+      "pimples",
+      "oily skin",
+      "charcoal face pack",
+      "skin detox",
+      "natural skincare"
+    ]
+  },
+  {
+    "title": "Rice Flour Face Pack",
+    "category": "beauty",
+    "symptoms": [
+      "acne",
+      "pimples",
+      "oily skin",
+      "dull skin"
+    ],
+    "ingredients": [
+      "rice flour",
+      "lemon juice",
+      "honey"
+    ],
+    "instructions": "Mix rice flour, honey, and lemon juice. Apply on face and neck and rinse after 15 minutes.",
+    "benefits": "Absorbs excess oil, removes dead skin cells, and helps reduce pimples.",
+    "source": "Traditional skincare remedy",
+    "keywords": [
+      "rice flour face pack",
+      "acne",
+      "pimples",
+      "oily skin",
+      "skin brightening",
+      "natural face pack"
+    ]
+  },
+  {
+    "title": "Facial Hair Removal (Gram Flour Pack)",
+    "category": "beauty",
+    "symptoms": [
+      "facial hair",
+      "unwanted hair"
+    ],
+    "ingredients": [
+      "gram flour",
+      "turmeric",
+      "lemon juice",
+      "sandalwood paste"
+    ],
+    "instructions": "Mix all ingredients into a paste and apply evenly. Leave for 15–20 minutes, then wash and pat dry.",
+    "benefits": "Helps reduce facial hair growth gradually while brightening skin.",
+    "source": "Traditional beauty practice",
+    "keywords": [
+      "facial hair removal",
+      "gram flour pack",
+      "unwanted hair",
+      "natural hair removal",
+      "skin brightening"
+    ]
+  },
+  {
+    "title": "Sugaring",
+    "category": "beauty",
+    "symptoms": [
+      "facial hair",
+      "unwanted hair"
+    ],
+    "ingredients": [
+      "lemon juice",
+      "sugar",
+      "water"
+    ],
+    "instructions": "Mix lemon juice, sugar, and water to form a thick paste. Rub gently on the face.",
+    "benefits": "Helps remove hair gently from the roots.",
+    "source": "Traditional hair removal method",
+    "keywords": [
+      "sugaring",
+      "facial hair removal",
+      "unwanted hair",
+      "natural waxing",
+      "hair removal remedy"
+    ]
+  },
+  {
+    "title": "Facial Hair Removal (Honey and Lemon)",
+    "category": "beauty",
+    "symptoms": [
+      "facial hair",
+      "unwanted hair"
+    ],
+    "ingredients": [
+      "honey",
+      "lemon juice"
+    ],
+    "instructions": "Mix honey and lemon juice, apply for 20 minutes, then wipe off with a warm damp cloth.",
+    "benefits": "Helps weaken facial hair over time while moisturizing the skin.",
+    "source": "Natural beauty remedy",
+    "keywords": [
+      "facial hair",
+      "honey lemon remedy",
+      "unwanted hair",
+      "natural beauty care",
+      "skin moisturizing"
+    ]
+  },
+
+  {
+    "title": "Ant Repellent",
+    "category": "household",
+    "symptoms": [
+      "ants",
+      "ant infestation"
+    ],
+    "ingredients": [
+      "cinnamon"
+    ],
+    "instructions": "Sprinkle cinnamon powder or place cinnamon sticks where ants enter.",
+    "benefits": "Keeps ants away naturally without chemicals.",
+    "source": "Household pest control tip",
+    "keywords": [
+      "ants",
+      "ant repellent",
+      "ant infestation",
+      "natural pest control",
+      "cinnamon for ants"
+    ]
+  },
+  {
+    "title": "Unclog Drains",
+    "category": "household",
+    "symptoms": [
+      "clogged drains",
+      "bad smell"
+    ],
+    "ingredients": [
+      "baking soda",
+      "vinegar",
+      "hot water"
+    ],
+    "instructions": "Pour baking soda followed by vinegar into the drain. Let sit for 10–15 minutes, then flush with hot water.",
+    "benefits": "Clears drains and removes odor safely.",
+    "source": "Natural cleaning practice",
+    "keywords": [
+      "clogged drains",
+      "drain cleaning",
+      "bad smell",
+      "baking soda vinegar",
+      "natural drain cleaner"
+    ]
+  },
+  {
+    "title": "Newspaper for Shiny Glass",
+    "category": "household",
+    "symptoms": [
+      "dirty glass",
+      "dull mirrors"
+    ],
+    "ingredients": [
+      "newspaper",
+      "vinegar"
+    ],
+    "instructions": "Spray vinegar on glass and wipe with crumpled newspaper.",
+    "benefits": "Makes glass shiny without streaks.",
+    "source": "Traditional household tip",
+    "keywords": [
+      "shiny glass",
+      "clean mirrors",
+      "glass cleaning",
+      "vinegar glass cleaner",
+      "streak free glass"
+    ]
+  },
+  {
+    "title": "Banana Peel Shoe Polish",
+    "category": "household",
+    "symptoms": [
+      "dull leather shoes"
+    ],
+    "ingredients": [
+      "banana peel"
+    ],
+    "instructions": "Rub the inner side of banana peel on shoes and wipe with a cloth.",
+    "benefits": "Adds natural shine without polish.",
+    "source": "Household hack",
+    "keywords": [
+      "shoe shine",
+      "banana peel polish",
+      "leather shoes",
+      "natural shoe polish",
+      "shoe care"
+    ]
+  },
+  {
+    "title": "Salt for Fresh Stains",
+    "category": "household",
+    "symptoms": [
+      "food stains",
+      "oil stains",
+      "tea stains"
+    ],
+    "ingredients": [
+      "salt"
+    ],
+    "instructions": "Sprinkle salt on fresh stains, let it absorb, then wash.",
+    "benefits": "Prevents stain spreading by absorbing liquid.",
+    "source": "Laundry tip",
+    "keywords": [
+      "stain removal",
+      "fresh stains",
+      "food stains",
+      "oil stains",
+      "salt stain remover"
+    ]
+  },
+  
+  {
+    "title": "Constipation During Pregnancy",
+    "category": "pregnancy",
+    "symptoms": [
+      "constipation",
+      "hard stools",
+      "bloating",
+      "gas"
+    ],
+    "ingredients": [
+      "flax seeds",
+      "water",
+      "buttermilk"
+    ],
+    "instructions": "Drink adequate water, include flax seeds or flax seed oil, consume buttermilk or probiotics, and practice gentle prenatal yoga.",
+    "benefits": "Supports digestion and helps maintain regular bowel movement.",
+    "source": "Prenatal wellness guidance",
+    "keywords": [
+      "constipation during pregnancy",
+      "pregnancy constipation",
+      "hard stools",
+      "bloating",
+      "gas",
+      "prenatal digestion"
+    ]
+  },
+  {
+    "title": "Pain and Swelling Relief",
+    "category": "pregnancy",
+    "symptoms": [
+      "leg pain",
+      "swelling"
+    ],
+    "ingredients": [
+      "warm water",
+      "epsom salt"
+    ],
+    "instructions": "Elevate feet above heart level and soak feet in warm water with epsom salt.",
+    "benefits": "Helps improve circulation and reduce discomfort.",
+    "source": "Prenatal comfort practice",
+    "keywords": [
+      "pregnancy swelling",
+      "leg pain pregnancy",
+      "foot swelling",
+      "epsom salt soak",
+      "prenatal pain relief"
+    ]
+  },
+  {
+    "title": "Heartburn Relief",
+    "category": "pregnancy",
+    "symptoms": [
+      "pregnancy heartburn",
+      "chest discomfort"
+    ],
+    "ingredients": [
+      "cold milk",
+      "fennel seeds"
+    ],
+    "instructions": "Eat smaller meals and drink cold milk or chew fennel seeds.",
+    "benefits": "Helps soothe the stomach and reduce acidity.",
+    "source": "Prenatal dietary guidance",
+    "keywords": [
+      "heartburn during pregnancy",
+      "pregnancy acidity",
+      "chest discomfort",
+      "fennel seeds",
+      "digestive comfort pregnancy"
+    ]
+  },
+  {
+    "title": "Stress and Body Pain Relief",
+    "category": "pregnancy",
+    "symptoms": [
+      "pregnancy stress",
+      "body pain"
+    ],
+    "ingredients": [],
+    "instructions": "Practice gentle prenatal stretching, walking, and deep breathing exercises.",
+    "benefits": "Helps reduce stress and improve mood.",
+    "source": "Prenatal wellness practice",
+    "keywords": [
+      "pregnancy stress",
+      "body pain pregnancy",
+      "prenatal exercise",
+      "stress relief pregnancy",
+      "mental wellness pregnancy"
+    ]
+  },
+  {
+    "title": "Better Sleep and Calm",
+    "category": "pregnancy",
+    "symptoms": [
+      "sleeplessness during pregnancy"
+    ],
+    "ingredients": [
+      "warm milk"
+    ],
+    "instructions": "Drink warm milk before bed and sleep on the left side with a pillow between the legs.",
+    "benefits": "Supports better sleep and reduces back discomfort.",
+    "source": "Prenatal comfort guidance",
+    "keywords": [
+      "pregnancy sleep",
+      "sleeplessness pregnancy",
+      "better sleep pregnancy",
+      "prenatal comfort",
+      "sleep position pregnancy"
+    ]
+  },
+  {
+    "title": "Morning Sickness Relief",
+    "category": "pregnancy",
+    "symptoms": [
+      "pregnancy nausea",
+      "morning sickness"
+    ],
+    "ingredients": [
+      "ginger"
+    ],
+    "instructions": "Sip warm ginger water or chew a small piece of ginger and eat small meals frequently.",
+    "benefits": "Helps reduce nausea naturally.",
+    "source": "Prenatal wellness tip",
+    "keywords": [
+      "morning sickness",
+      "pregnancy nausea",
+      "ginger for nausea",
+      "natural nausea relief",
+      "prenatal care"
+    ]
+  },
+  {
+    "title": "Vomiting During Pregnancy",
+    "category": "pregnancy",
+    "symptoms": [
+      "pregnancy vomiting",
+      "nausea"
+    ],
+    "ingredients": [
+      "ginger",
+      "lemon",
+      "peppermint"
+    ],
+    "instructions": "Drink ginger tea, inhale the scent of fresh lemon, and sip peppermint tea.",
+    "benefits": "Helps calm the stomach and reduce nausea.",
+    "source": "Prenatal comfort practice",
+    "keywords": [
+      "vomiting during pregnancy",
+      "pregnancy nausea",
+      "ginger tea",
+      "peppermint tea",
+      "natural pregnancy remedies"
+    ]
+  }
+
+
+
+
+
+]
